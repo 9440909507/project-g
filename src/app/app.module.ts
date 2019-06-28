@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FirstPageComponent } from './pages/first-page/first-page.component';
+import { SecondPageComponent } from './pages/second-page/second-page.component';
+import { ThirdPageComponent } from './pages/third-page/third-page.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FirstPageComponent, SecondPageComponent,ThirdPageComponent
   ],
   imports: [
     BrowserModule,
@@ -16,3 +20,5 @@ import { AppComponent } from './app.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+

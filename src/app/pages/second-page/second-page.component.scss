@@ -1,0 +1,38 @@
+.parent-con {
+    background-color: rgb(231, 226, 226);
+    height: 300px;
+    padding-left: 70px;
+}
+.child1 {
+    float: left;
+    height: 93%;
+    width: 30%;
+    margin: 10px;
+}
+.img-con {
+    width: 100%;
+}
+.para {
+    font-size: 25px;
+    margin: 0px;
+}
+.img1 {
+    width: 100px;
+    float: left;
+    padding: 7px;
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.head4 {
+    width: 60%;
+    padding-right: 40px;
+    float: right;
+} 
+.text {
+    margin: 0px;
+    padding: 10px;
+} 
